@@ -1,0 +1,16 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      MEOK_ATTESTATION_API:
+        type: string
+        title: "MEOK Attestation API endpoint"
+        description: "Override default attestation API. Leave blank for free tier."
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: 'python',
+      args: ['-m', 'meok_fria_generator'],
+      env: { MEOK_ATTESTATION_API: config.MEOK_ATTESTATION_API || '' }
+    })

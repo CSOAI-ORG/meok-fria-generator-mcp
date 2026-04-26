@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meok-fria-generator-mcp"
+version = "1.0.0"
+description = "EU AI Act Article 27 Fundamental Rights Impact Assessment generator. EDPB DPIA crosswalk, EU Charter mapping, HMAC-signed compliance attestations. By MEOK AI Labs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@csoai.org" }]
+keywords = [
+    "mcp", "model-context-protocol", "mcp-server",
+    "eu-ai-act", "fria", "fundamental-rights",
+    "compliance", "regtech", "edpb", "dpia",
+    "ai-governance", "meok-ai-labs", "signed-attestation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = ["mcp>=1.2.0"]
+
+[project.urls]
+Homepage = "https://meok.ai"
+Repository = "https://github.com/CSOAI-ORG/meok-fria-generator-mcp"
+Issues = "https://github.com/CSOAI-ORG/meok-fria-generator-mcp/issues"
+Documentation = "https://meok.ai/docs"
+
+[project.scripts]
+meok-fria-generator = "meok_fria_generator:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["meok_fria_generator"]
+
+[tool.mcp]
+mcpName = "io.github.CSOAI-ORG/meok-fria-generator-mcp"

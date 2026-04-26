@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-fria-generator-mcp",
+  "description": "EU AI Act Article 27 FRIA generator — EDPB DPIA crosswalk, EU Charter mapping, HMAC-signed compliance attestations. By MEOK AI Labs.",
+  "status": "active",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-fria-generator-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://meok.ai",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "meok-fria-generator-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
