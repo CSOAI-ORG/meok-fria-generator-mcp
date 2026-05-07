@@ -97,3 +97,4 @@ MIT. © 2026 Nicholas Templeman / CSOAI LTD (UK Companies House 16939677).
 - [meok-eu-ai-act-compliance-mcp](https://github.com/CSOAI-ORG/eu-ai-act-compliance-mcp) — broader EU AI Act compliance toolkit
 - [meok-dpia-edpb-template-mcp](https://github.com/CSOAI-ORG/meok-dpia-edpb-template-mcp) — EDPB harmonised DPIA template
 - [meok-attestation-api](https://meok-attestation-api.vercel.app/health) — public verifiable attestation infrastructure
+<!-- mcp-name: io.github.CSOAI-ORG/meok-fria-generator-mcp -->
