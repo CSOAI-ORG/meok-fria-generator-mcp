@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "meok-fria-generator-mcp"
-version = "1.0.2"
+version = "1.0.3"
 description = "EU AI Act Article 27 Fundamental Rights Impact Assessment generator. EDPB DPIA crosswalk, EU Charter mapping, HMAC-signed compliance attestations. By MEOK AI Labs."
 readme = "README.md"
 requires-python = ">=3.10"
