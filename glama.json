@@ -1,10 +1,4 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "name": "meok-fria-generator",
-  "description": "EU AI Act Article 27 FRIA generator — EDPB DPIA crosswalk, EU Charter mapping, HMAC-signed compliance attestations. By MEOK AI Labs.",
-  "homepage": "https://meok.ai",
-  "repository": "https://github.com/CSOAI-ORG/meok-fria-generator-mcp",
-  "license": "MIT",
-  "author": "MEOK AI Labs",
-  "tags": ["eu-ai-act", "fria", "fundamental-rights", "compliance", "edpb", "dpia", "mcp", "signed-attestation", "meok-ai-labs"]
+  "maintainers": ["CSOAI-ORG"]
 }
