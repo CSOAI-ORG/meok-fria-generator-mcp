@@ -1,3 +1,5 @@
+[![meok-fria-generator-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-fria-generator-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-fria-generator-mcp)
+
 # meok-fria-generator-mcp
 
 [![PyPI](https://img.shields.io/pypi/v/meok-fria-generator-mcp.svg)](https://pypi.org/project/meok-fria-generator-mcp/)
